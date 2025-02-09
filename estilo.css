@@ -1,0 +1,1149 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Roboto Serif", serif; 
+    max-width: 100%;
+}
+#limitelogo{
+    max-width:330px;
+    height:300px;
+}
+#limitelogo img{
+    height:auto;
+    width: 280px;
+}
+.limite{
+    max-width:1280px;
+    margin:0 auto;
+}
+#topo{
+    background-color:rgba(175, 212, 231, 0.4);
+    max-width:100%;
+    min-height:380px;
+    background-image:url("imagens/foto_capa_site.jpg");
+    background-position:center;                                    
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.menu menu{
+    max-width:100%;
+    min-height: 40px;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    margin:0 auto;
+    padding-top: 5px;
+}
+#bt-menu{
+    display:none;
+}
+#menu-check{
+    display: none;
+}
+.botaomenu{
+    width:100px;
+    height: 30px;
+    background-color:rgba(9, 34, 138, 1);
+    border-radius: 8px;
+    border:1px 1px black solid;
+}
+.botaomenu a{
+    color:white;
+    text-shadow: 1px 2px black;
+    font-size: 15px;
+    font-family:"League Spartan", sans-serif;
+}
+.botaomenu:hover{
+    background-color: #493D17;
+}
+.pergunta{
+    background-color: #d9d9d9;
+    color:rgba(9, 34, 138, 1);
+    background-image: url("imagens/lupa.png");
+    background-size:25px;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: 1px 1px black ;
+    width: 245px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.pergunta:hover{
+    background-color: #808E95;
+    color: white;
+}
+li a{
+    color:black;
+    font-weight: 700;
+    text-decoration: none;
+}
+.pular{
+    width:100%;
+    height: 7px;
+    background-color: rgba(49, 95, 121, 0.71);
+}
+.banner{
+    max-width:100%;
+    height: 340px;
+    background-color:rgba(49, 97, 121, 0.33);
+    display: flex;
+    justify-content: center;
+    background-image: url("imagens/livros2.gif"), url("imagens/livros1.webp");
+    background-repeat:no-repeat;
+    background-size: 220px, 150px;
+    background-position:right 15px bottom 0, left 15px bottom 2px;
+}
+ #bannerh1{
+    text-align: center;
+    margin: auto;
+    color: rgba(9, 34, 138, 1);
+    text-shadow:2px 1px black ;
+    font-size: 70px;
+    font-weight:700;
+}
+.books{
+    max-width: 100%;
+    height:auto;
+    background-color: rgba(49, 95, 121, 0.71);
+}
+#novidades{
+    color:black;
+    font-size:50px;
+    padding-top: 50px;
+    text-shadow: 3px 1px rgba(0, 0, 0, 0.2);
+    font-weight:900;
+    text-align: center;
+}
+.livro-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 60px;
+}
+.livro-card{
+    width: 90%;
+    background-color: white;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+    background-image: url("imagens/favoritos.png");
+    background-position: top 5px right 10px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    padding: 15px 10px 20px 10px;
+}
+.livro-card img{
+    width:220px;
+    height: 245px;
+    margin:auto;
+    padding: 20px;
+}
+#jorgao{
+    width: 198px;
+}
+.livro-card h2{
+    padding-top:30px;
+}
+.livro-card button{
+    box-shadow: 3px 3px #808E95;
+}
+.preco{
+    color:rgba(62, 50, 11, 1);
+    font-weight: 800;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.sacola{
+    width: 180px;
+    height: 60px;
+    background-color:rgba(13, 136, 197, 0.8);
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    border-radius:20px ;
+    border:0;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+.sacola:hover{
+    background-color:#493D17;
+}
+#vendidostext{
+    color: black;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.principais{
+    background-color: rgba(104, 130, 143, 0.8);
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+.item{
+    width:90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+           grid-template-rows:1fr 1fr;
+    gap:15px;
+    align-items: center;
+    justify-items: center;
+}
+.itens{
+    padding-bottom: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 32px;
+}
+.itens img{
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+.itens p{
+    text-align: center;
+    color:rgba(83, 67, 15, 1);
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.localizacao{
+    padding: 10px;
+    background-color:rgba(49, 95, 121, 0.8);
+    color:white;
+}
+#localizar{
+    color: black;
+    font-size: 48px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-shadow:2px 1px black;
+    text-align: center; 
+}
+.localizacao-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+.local {
+    gap:20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.local1{
+    display: flex;
+    align-items:center;
+}
+.local p{
+    width: 180px;
+    margin:0;
+    text-align:left;
+    font-size: 15px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.2);    
+}
+#endereco{
+    width: 180px;
+    text-align:left;
+    font-size: 15px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.2);  
+}
+.local img {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.ponto{
+    display: flex;
+    gap:5px;
+    margin: 10px auto;
+    align-items: center;
+}
+.ponto img{
+    width: 30px;
+    height: 30px;
+}
+#informacoes{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, rgba(128, 142, 149, 0.8) 50%, rgba(106, 134, 147, 0.9333) 50%);
+}
+.container2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.esquerda {
+    flex: 1;
+}
+.direita {
+    flex: 1;
+}
+.esquerda {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "League Spartan", sans-serif;
+} 
+.info{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.info h2{
+    color:rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px black;
+    margin: 80px auto;
+    padding: 10px;
+    font-size: 36px;
+    text-align:center;
+}
+.info p{
+    text-align: left;
+    font-weight: 900;
+    margin: 60px auto;
+    padding: 5px;
+    font-size: 24px;
+    color: black;
+}
+.direita{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appfotos{
+    display: flex;
+    gap:25px;
+    margin-top:100px;
+}
+.direita h3{
+    margin: 80px auto;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-size:28px;
+}
+.direita img{
+    width: 180px;
+    height: 60px;
+}
+.imagemdeco {
+    max-width: 480px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+.imagemdeco img{
+    height: 150px;
+    width: 150px;
+}
+#compre{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(9, 34, 138, 1);
+    color:rgba(232, 232, 232, 1);
+    padding: 5px;
+    font-family:"League Spartan", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px black;
+}
+#compre:hover{
+    background-color:#316179;
+}
+.saibamais{
+    max-width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color:rgba(49, 95, 121, 0.8);
+}
+#texto h1{
+    color:rgba(12, 18, 128, 1);
+    font-size:34px;
+    margin: 50px auto;
+    text-shadow: 1px 1px black;
+    padding-left: 50px;
+}
+#textobv{
+    width: 450px;
+    color:white;
+    font-size: 26px;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    text-align:start;
+    padding: 5px;
+    font-family: "League Spartan", sans-serif;
+}
+#alinhar {
+    display: flex;
+    align-items:flex-end;
+    margin-bottom:25px;
+    margin-right:25px;
+}
+#sabermais{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(28, 28, 115, 1);
+    color: white;
+    font-family:"League Spartan", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+#sabermais:hover{
+    background-color:#53430F;
+}
+.lendo{
+    width: 360px;
+    display: flex;
+    flex-direction: column; 
+    text-align:center;
+    align-items: end;
+}
+.lendo img{
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+    filter: drop-shadow(1px 1px 1px black);
+    margin:30px auto;
+    padding: 20px;
+}
+.lendo p{
+    color:rgba(73, 61, 23, 1);
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#rodape{
+    max-width: 100%;
+    height:auto;
+    background-color:#316179;
+    color: white;
+    font-family:"League Spartan", sans-serif;
+}
+#rodape h5{
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 500; 
+    text-shadow: 1px 1px black;
+}
+.footer-container{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:nowrap;
+    margin: 0 auto;
+}
+.secaoesquerda{
+    text-align:center;
+}
+#h5diferente{
+    text-align: center;
+    margin: 5px 5px;
+}
+.pagamentoformas{
+    padding: 5px;
+    margin-bottom: 110px;
+}
+.pagamentoformas, .iconesredes{
+    display: flex;
+    gap: 4px;
+}
+.pagamentoformas img{
+    width: 45px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.iconesredes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px 10px;
+    padding: 2px;
+}
+.iconesredes img{
+    width: 35px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.logocentro{
+    margin: 130px auto;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.logo2{
+    width:250px;
+}
+.copy{
+    color:black;
+    font-weight: 800;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.secaodireita{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.secaodireita p{
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+    margin: 20px auto;
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.secaodireita a{
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    color: white;
+    margin: 20px auto;
+    padding-bottom: 40px;
+}
+.contatoicon{
+    width: 35px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.contawhats{
+    width: 35px;
+}
+   @media (max-width:980px){
+    .banner{
+        background-size: 165px, 115px;
+    }
+    #bannerh1{
+        font-size: 60px;
+    }
+    .books{
+        height: auto;
+    }
+    #novidades{
+        font-size: 58px;
+    }
+    .livro-grid{
+        grid-template-columns: 1fr;
+    }
+    .localizacao-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .local1{
+        display: block;
+    }
+    .local p{
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .local img {
+        max-width: 480px;
+        height: 380px;
+    }
+    .ponto{
+        justify-content: center;
+    }
+    #endereco{
+        width: 300px;
+        font-size: 20px;
+    }
+    .ponto img{
+        width: 40px;
+        height: auto;
+    }
+    .coluna-esquerda{
+        margin: 0 auto;
+    }
+    #localizar{
+        font-size: 38px;
+    }
+    .coluna-direita{
+        margin: 0 auto;
+    }   
+    #informacoes{
+        background:  rgba(128, 142, 149, 0.8);
+    }
+    .info{
+        max-width: 750px;
+    }
+    .info h2{
+        font-size:44px
+    }
+    .info p{
+        font-size: 34px;
+        text-align: center;
+    }
+    .direita{
+        background-color:rgba(106, 134, 147, 0.9333);
+    }
+    #compre {
+        width: 350px;
+        height: 80px;
+        font-size: 36px;
+        margin-top: 60px;
+    }
+    .direita h3{
+        font-size: 36px;
+    }
+    .appfotos{
+        margin-bottom: 60px;
+    }
+    .direita img{
+        width: 250px;
+        height: 80px;
+    }
+    .container2{
+        display: block;
+    }
+    .saibamais{
+        display: block;
+        justify-items: center;  
+    }
+    #texto h1{
+        font-size:56px;
+        margin: 0 auto;
+        padding-left: 0%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #textobv{
+        width: 690px;
+        margin: 50px auto;
+        font-size: 32px;
+        padding: 20px;
+    }
+    #sabermais{
+        width: 230px;
+        height: 80px;
+        font-size: 28px;
+    }
+    .lendo {
+        width: 450px;
+    }
+    .lendo img {
+    width: 450px;
+    }
+    .lendo p{
+        font-size: 28px;
+    }
+    .logocentro{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:830px){
+    .secaoesquerda{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .pagamentoformas{
+        width: 300px;
+        display: grid ;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 0;
+        text-align: center;
+        gap:5px;
+        align-items:center;
+        margin: 0 auto;
+    }
+    .secaodireita {
+        width: 300px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+    .iconesredes {
+        width: 300px;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 20px auto;
+    }
+    .logo2 {
+        margin-bottom:0;
+    }
+}
+@media (max-width:700px){
+    .menu{
+        height:0;
+        overflow: hidden;
+    }
+    .menu menu{
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    }
+    #bt-menu{
+        display:block;
+        zoom: 150%;
+        padding: 5px;
+    }
+    #menu-check:checked ~  .menu{
+        height:250px;
+        overflow: hidden;
+        transition: all 1s ease-out;
+    }
+   #topo{
+        background-position: 100px;
+        background-color: rgb(239,241,243);
+    }
+    .banner{
+        background-size: 135px, 95px;
+    }
+    #bannerh1{
+        font-size: 45px;
+    }
+    .item{
+        grid-template-columns: 1fr 1fr;
+    }
+    .livro-grid{
+        grid-template-columns: 1fr;
+    } 
+    .localizacao-container{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .direita{
+        background-color:rgba(106, 134, 147, 0.9333);
+    }
+    #localizar {
+        font-size: 32px;
+    }
+    .local img {
+        max-width: 300px;
+        height: 200px; 
+    }
+    .local p{
+        width: 200px;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .ponto{
+        justify-content: center;
+    }
+    .ponto img{
+        width: 25px;
+        height: auto;
+    }
+    #endereco{
+        font-size: 14px;
+        justify-content: center;
+    }
+    #informacoes{
+        height: auto;
+    }
+    .info {
+        max-width: 690px;
+    }
+    .info h2 {
+        font-size: 36px;
+    }
+    .info p {
+        font-size: 28px;
+    }
+    .imagemdeco img {
+        height: 130px;
+        width: 130px;
+    }
+    #compre{
+        width: 200px;
+        height: 70px;
+        font-size: 28px;
+    }
+    .appfotos{
+        display: block;
+        margin-top: 60px;
+    }
+    .direita img{
+        width:200px;
+        height: 70px;
+    }
+    #texto{
+        max-width: 500px;
+    }
+    #texto h1{
+        font-size: 48px;
+    }
+    #textobv{
+        max-width: 500px;
+        font-size: 28px;
+    }
+    #sabermais{
+        max-width: 180px;
+        height: 60px;
+        font-size: 26px;
+    }
+    .lendo img {
+        width: 350px;
+    }
+    .lendo p {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:500px){
+    .banner{
+        height:250px;
+        background-size: 105px, 70px;
+    }
+    #bannerh1{
+        font-size: 34px;
+    }
+    #novidades{
+        font-size: 40px;
+    }
+    .livro-card img {
+        width: 180px;
+        height: 195px;
+    }
+    #jorgao {
+        width: 168px;
+    }
+    .sacola {
+        width: 170px;
+        height: 55px;
+        font-size: 15px;
+    }
+    #vendidostext {
+    font-size: 36px;
+    }
+    .itens img {
+    height: 115px;
+    width: 115px;
+    }
+    .local {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .ponto {
+        width: 200px;
+    }
+    .info {
+        max-width: 450px;
+    }
+    #texto h1{
+        font-size: 42px;    
+    }
+    #textobv{
+        width: 450px;
+        font-size: 26px;
+    }
+    #sabermais{
+        max-width: 200px;
+    }
+    .lendo {
+        width: 400px;
+    }
+    .lendo p {
+        width: 310px;
+        }
+}
+@media (max-width:490px){
+    .livro-card{
+        width: 75%;
+        font-size: 12px;
+        background-size: 30px 30px;
+     }
+     .livro-card img {
+        width: 150px;
+        height: 185px;
+    }
+    .livro-grid{
+        padding: 45px;
+    }
+    #jorgao{
+        width: 150px;
+        height: 185;
+    }
+     .preco{
+        font-size: 18px;
+     }
+     .sacola {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+    }
+    #localizar {
+        font-size: 30px;
+    }
+    .local img {
+        width: 210px;
+        height: 160px;
+    }
+    .local p {
+        width: 180px;
+        font-size: 14px;
+    }
+    .ponto img{
+        width: 30px;
+        height: 30px;
+    }
+    #endereco{
+        width: 170px;
+    }
+    .info {
+        max-width: 400px;
+    }
+    .info h2 {
+        font-size: 28px;
+    }
+    .info p {
+        font-size: 22px;
+    }
+    .imagemdeco {
+        width: 350px;
+    }
+    .imagemdeco img {
+        height: 100px;
+        width: 100px;
+    }
+    .itens p{
+        font-size: 24px;
+    }
+    .local p{
+        margin-top: 0;
+    }
+
+    #compre {
+        width: 160px;
+        height: 60px;
+        font-size: 19px;
+    }
+    .direita h3 {
+        font-size: 26px;
+        margin: 50px auto;
+    }
+    .appfotos {
+        margin-top: 20px;
+    }
+    .direita img {
+        width: 135px;
+        height: 50px;
+    }
+    #textobv {
+        max-width: 290px;
+        font-size: 22px;
+        margin: 30px auto;
+    }
+    #sabermais{
+        width: 140px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .lendo img {
+        width: 280px;
+    }
+    .lendo p {
+        width: 290px;
+        font-size: 20px;
+    }    
+    .info h2 {
+        font-size: 24px;
+    }
+    #texto {
+        max-width: 400px;
+    }
+    #textobv {
+        max-width: 350px;
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+    @media(max-width:400px){
+        .banner {
+            height: 230px;
+            background-size: 85px, 55px;
+        }
+        #bannerh1{
+            font-size: 30px;
+        }
+        .livro-grid{
+            padding: 40px;
+        }
+        .itens p {
+            font-size: 20px;
+        }
+        #texto h1 {
+            font-size: 36px;
+        }
+        #textobv {
+            width: 350px;
+            font-size: 22px                         ;
+        }
+        #alinhar{
+            margin-right: 0;
+        }
+        #sabermais {
+            width: 150px;
+            font-size: 20px;
+        }
+        .lendo {
+            width: 300px;
+        }
+        .lendo img {
+            width: 300px;
+        }
+        .lendo p {
+            width: 300px;
+            font-size: 22px;
+        }
+        #textobv {
+            max-width: 300px;
+            font-size: 18px;
+        }
+    }
+@media (max-width:360px){
+    #novidades {
+        font-size: 36px;
+    }
+    .livro-card{
+        width: 75%;
+        font-size: 10px;
+        background-size: 25px 25px;
+     }
+     .livro-card img {
+        width: 135px;
+        height: 165px;
+    }
+    .livro-card h2 {
+    padding-top: 10px;
+    }
+    .livro-grid{
+        padding: 40px;
+    }
+    #jorgao{
+        width: 135px;
+        height: 165;
+    }
+    .preco{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sacola {
+        width: 120px;
+        height: 35px;
+        font-size:10px;
+    }
+    #vendidostext {
+        font-size: 32px;
+    }
+    .imagemdeco {
+        max-width: 290px;
+    }
+    .imagemdeco img {
+        width:80px;
+        height:80px;
+    }
+    .itens{
+        width: 100px;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .itens img {
+        width: 100px;
+        height: 100px;
+    }
+    #localizar {
+        font-size: 28px;
+    }
+    .local p{
+        width: 150px;
+        font-size: 12px;
+    }
+    .ponto{
+        width:180px;
+    }
+    #endereco {
+        width: 160px;
+        font-size: 12px;
+    }
+    #compre{
+        width: 150px;
+        height: 50px;
+        margin-top: 40px;
+    }
+    .direita h3 {
+        font-size: 24px;
+        margin: 40px auto;
+    }
+    #textobv {
+        max-width: 290px;
+    }
+    .lendo img {
+        width: 270px;
+        padding: 10px;
+    }
+    .lendo p {
+        width: 260px;
+        font-size: 20px;
+    }
+    #rodape h5 {
+        margin-top: 20px; 
+        font-size: 20px;
+    }
+    .pagamentoformas {
+        width: 200px;
+        margin-bottom:20px;
+    }
+    .iconesredes {
+        width: 200px;
+    }
+    .iconesredes img {
+        width: 30px;
+    }
+    .secaodireita p {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .secaodireita a {
+        margin-top: 50px;
+    }
+}
